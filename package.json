@@ -43,7 +43,8 @@
     "@stdlib/assert-is-float16array": "github:stdlib-js/assert-is-float16array#main",
     "@stdlib/cli-ctor": "^0.2.2",
     "@stdlib/constants-float64-pinf": "^0.2.2",
-    "@stdlib/fs-read-file": "^0.2.2"
+    "@stdlib/fs-read-file": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.2",
