@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import hasFloat16ArraySupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-float16array-support@deno/mod.js';
+import hasFloat16ArraySupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-float16array-support@v0.1.0-deno/mod.js';
 ```
 
 #### hasFloat16ArraySupport()
@@ -65,7 +65,7 @@ var bool = hasFloat16ArraySupport();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import hasFloat16ArraySupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-float16array-support@deno/mod.js';
+import hasFloat16ArraySupport from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-has-float16array-support@v0.1.0-deno/mod.js';
 
 var bool = hasFloat16ArraySupport();
 if ( bool ) {
