@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-has-float16array-support",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Detect native Float16Array support.",
   "license": "Apache-2.0",
   "author": {
@@ -40,7 +40,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-float16array": "github:stdlib-js/assert-is-float16array#main",
+    "@stdlib/assert-is-float16array": "^0.1.0",
     "@stdlib/cli-ctor": "^0.2.2",
     "@stdlib/constants-float64-pinf": "^0.2.2",
     "@stdlib/fs-read-file": "^0.2.2"
