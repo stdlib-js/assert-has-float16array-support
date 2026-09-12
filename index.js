@@ -1,0 +1,3 @@
+// Copyright (c) 2026 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+var e,t;e=this,t=function(){"use strict";var e=Number.POSITIVE_INFINITY,t="function"==typeof Float16Array?Float16Array:null;return function(){var o,n;if("function"!=typeof t)return!1;try{o="object"==typeof(n=new t([1,3.14,-3.14,5e40]))&&null!==n&&"Float16Array"===n.constructor.name&&2===n.BYTES_PER_ELEMENT&&1===n[0]&&3.14!==n[1]&&-3.14!==n[2]&&n[3]===e&&4===n.length}catch(e){o=!1}return o}},"object"==typeof exports&&"undefined"!=typeof module?module.exports=t():"function"==typeof define&&define.amd?define(t):(e="undefined"!=typeof globalThis?globalThis:e||self).hasFloat16ArraySupport=t();
+//# sourceMappingURL=index.js.map
